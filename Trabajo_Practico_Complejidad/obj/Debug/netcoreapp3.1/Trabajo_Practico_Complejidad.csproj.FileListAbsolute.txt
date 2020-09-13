@@ -1,0 +1,13 @@
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\bin\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.exe
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\bin\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.deps.json
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\bin\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.runtimeconfig.json
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\bin\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.runtimeconfig.dev.json
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\bin\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.dll
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\bin\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.pdb
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\obj\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.csprojAssemblyReference.cache
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\obj\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.AssemblyInfoInputs.cache
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\obj\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.AssemblyInfo.cs
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\obj\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.csproj.CoreCompileInputs.cache
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\obj\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.dll
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\obj\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.pdb
+C:\Users\loren\Documents\GitHub\TP1_Complejidad\Trabajo_Practico_Complejidad\obj\Debug\netcoreapp3.1\Trabajo_Practico_Complejidad.genruntimeconfig.cache
