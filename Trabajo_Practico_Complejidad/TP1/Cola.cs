@@ -6,8 +6,6 @@ namespace tp1
 
 	public class Cola<T>
 	{
-
-		
 		private List<T> datos = new List<T>();
 	
 		public void encolar(T elem) {
