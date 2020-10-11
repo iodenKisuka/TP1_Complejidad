@@ -4,7 +4,8 @@ namespace ArbolBinario
 {
 	class PruebaAB
 	{
-		public static void Main_ArbolBinario(string[] args)
+		//public static void Main_ArbolBinario(string[] args)
+		public static void Main_ArbolBinario()
 		{
 			ArbolBinario<int> arbolBinarioA = new ArbolBinario<int>(1);
 

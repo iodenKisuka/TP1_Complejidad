@@ -67,9 +67,9 @@ namespace ArbolBinario
 		public void recorridoPorNiveles() {
 		}
 	
-		public int contarHojas() {
+		/**public int contarHojas() {
 			return 0;
-		}
+		} **/
 		
 		public void recorridoEntreNiveles(int n,int m) {
 		}
@@ -83,7 +83,7 @@ namespace ArbolBinario
 			if(esVacio())
             {
 				Console.WriteLine("Esta vacio");
-				return hoja;
+				//return hoja;
             } //No es un arbol vacio
             else
             {
