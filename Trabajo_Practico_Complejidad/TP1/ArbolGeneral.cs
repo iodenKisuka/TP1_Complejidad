@@ -61,19 +61,19 @@ namespace tp1
 			List<ArbolGeneral<T>> Siguiente_nivel_hijos;
 			do
 			{
-				if (ancho < hijos.Count)
+				if (ancho < hijosdelArbol.Count)
 				{
-					ancho = hijos.Count;
+					ancho = hijosdelArbol.Count;
 				}
 				Siguiente_nivel_hijos = new List<ArbolGeneral<T>>();
-				foreach (ArbolGeneral<T> Obtener_hijo in hijos)
+				foreach (ArbolGeneral<T> Obtener_hijo in hijosdelArbol)
 				{
 					foreach (ArbolGeneral<T> hijo in Obtener_hijo.getHijos())
 					{
 						Siguiente_nivel_hijos.Add(hijo);
 					}
 				}
-				hijos = Siguiente_nivel_hijos;
+				hijosdelArbol = Siguiente_nivel_hijos;
 
 			} while (Siguiente_nivel_hijos.Count > 0);
 
