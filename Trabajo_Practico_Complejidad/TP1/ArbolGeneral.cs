@@ -33,34 +33,39 @@ namespace tp1
 		public bool esHoja() {
 			return this.getHijos().Count == 0;
 		}
-	
-		public int alturaRecursion() {
+
+		public int alturaRecursion()
+        {
 			int altura = 0;
-			if (esHoja()) {
+			if (esHoja())
+			{
+				//retorna cero porque altura es cero
 				Console.WriteLine("es hoja");
 				return altura;
 			}
 			else
 			{
-				altura++;
-				int altura_del_hijo=0;
+				//altura++;
+				int altura_del_hijo;
 				Console.WriteLine("tiene hijo");
 				foreach (ArbolGeneral<T> recorrehijo in getHijos())
-                {
-					altura_del_hijo += recorrehijo.alturaRecursion();
-					Console.WriteLine("recorrio al hijo " + recorrehijo.getDatoRaiz()+" tiene altura "+ altura_del_hijo);
+				{
+					altura_del_hijo = recorrehijo.alturaRecursion();
+					Console.WriteLine("recorrio al hijo " + recorrehijo.getDatoRaiz() + " tiene altura " + altura_del_hijo);
 					if (altura < altura_del_hijo)
-                    {
-						altura=altura_del_hijo;
-                    }
-                }
-				
+					{
+						altura = altura_del_hijo;
+					}
+				}
+				Console.WriteLine("retorno " + altura);
+				return altura+1;
+				//return altura;
 			}
+			
 
-			return altura+1;
-
+		
 		}
-	
+			
 		
 		public int nivel(T dato) {
 			if (getDatoRaiz().Equals(dato))
@@ -123,6 +128,34 @@ namespace tp1
 
 
 
+		public int Aristas_Total()
+		{
+			int altura = 0;
+			if (esHoja())
+			{
+				Console.WriteLine("es hoja");
+				return altura;
+			}
+			else
+			{
+				//altura++;
+				int altura_del_hijo = 0;
+				Console.WriteLine("tiene hijo");
+				foreach (ArbolGeneral<T> recorrehijo in getHijos())
+				{
+					altura_del_hijo += recorrehijo.alturaRecursion() + 1;
+					Console.WriteLine("recorrio al hijo " + recorrehijo.getDatoRaiz() + " tiene altura " + altura_del_hijo);
+					if (altura < altura_del_hijo)
+					{
+						altura = altura_del_hijo;
+					}
+				}
+
+			}
+			Console.WriteLine("retorno " + altura);
+			return altura;
+
+		}
 
 
 
