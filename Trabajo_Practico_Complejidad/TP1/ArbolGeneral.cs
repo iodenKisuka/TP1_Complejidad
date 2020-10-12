@@ -157,6 +157,35 @@ namespace tp1
 
 		}
 
+		public int AlturaSegundaForma()
+		{
+			int altura = 0;
+			if (esHoja())
+			{
+				Console.WriteLine("es hoja");
+				return altura;
+			}
+			else
+			{
+				//altura++;
+				int altura_del_hijo = 0;
+				Console.WriteLine("tiene hijo");
+				foreach (ArbolGeneral<T> recorrehijo in getHijos())
+				{
+					//altura_del_hijo += recorrehijo.alturaRecursion() + 1;
+					altura_del_hijo = recorrehijo.alturaRecursion() + 1;
+					Console.WriteLine("recorrio al hijo " + recorrehijo.getDatoRaiz() + " tiene altura " + altura_del_hijo);
+					if (altura < altura_del_hijo)
+					{
+						altura = altura_del_hijo;
+					}
+				}
+
+			}
+			Console.WriteLine("retorno " + altura);
+			return altura;
+
+		}
 
 
 	}

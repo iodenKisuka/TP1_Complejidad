@@ -32,8 +32,9 @@ namespace Trabajo_Practico_Complejidad
             arbolRaiz.agregarHijo(arbol3);
 
 
-           Console.WriteLine("Altura : " + arbolRaiz.alturaRecursion());
-            Console.WriteLine("Altura : " + arbol2.alturaRecursion());
+            //Console.WriteLine("Altura : " + arbolRaiz.alturaRecursion());
+            //Console.WriteLine("Altura : " + arbol2.alturaRecursion());
+            Console.WriteLine("Altura : " + arbolRaiz.Aristas_Total());
 
         }
     }
